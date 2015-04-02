@@ -3,8 +3,6 @@
 
 int main( int argc, char **argv, char **penv )
 {
-  int i = 0;
-
-  for( ; penv[i] != NULL; i++ )
+  for( int i = 0; penv[i] != NULL; i++ )
     printf("%s\n", penv[i]);
 }
